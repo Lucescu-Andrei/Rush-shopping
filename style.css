@@ -92,6 +92,8 @@ a:hover{
 .adg{
         position: relative;
         top:50px;
+    border: solid #D6B892;
+    
     }
 #search{
     position:relative;
