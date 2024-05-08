@@ -108,15 +108,40 @@ text-align: center;
 
 }
 .item{ border: none}
+.info{margin-top: 15px;
+margin-left: 25%;
+}
+.prez{
+    width: 400px;
+    height: 100px;
+    border: solid black;
+    border-radius: 30% 10% 30% 10%;
+    margin-left:25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #D6B892;  
+    
+}
+.cadou{margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    border: 10px solid #0a573d ;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 35%;
+    z-index: -1;
+}
 footer{
     position: fixed;
     bottom: 0px;
-    height: 50px;
+    height: 100px;
     width: 100%;
     z-index: 1;
     background-color: #3D3528;
     
 }
+
 /* D6B892 crem
 2E1204 maro inchis
 44655A verde inchis
