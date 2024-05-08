@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Căutare</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" /> 
+
 </head>
 <body>
     <header>
@@ -19,9 +21,15 @@
     <main>
   
         <div class="search-wrapper ">
-            <form>
-                    <input type="search" placeholder="Adaugă produs" required id="search" autocomplete="off" >
-                <button class="adg">+</button>
+           <form>
+                    <input type="search" placeholder="Adaugă produs" required id="search" autocomplete="off">
+                    <button class="adg"><span class="material-symbols-outlined">
+                        add
+                        </span></button>
+                    <div class="sugestie">
+                      
+                    </div>
+                        
             </form>
         </div>
          <div class="rezultate"></div>
