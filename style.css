@@ -80,24 +80,30 @@ a:hover{
 
     border:#2E1204;
 }
-.search-wrapper{
-    position:absolute;
-    top:80px;
-    left: 45%;
-    height: 30px;
-    width: 50px;
-
+ .search-wrapper{
+        display: flex;
+        justify-content:center;
+        
+        height: 100px;
+       
     
-}
-#search{font-size: 20px;
-background-color: #D6B892;
-color:#2E1204;
-border-radius: 2cm;;
-border-width: 4px;
-border-color: #3D3528;
-text-align: center;
-
-}
+        
+    }
+.adg{
+        position: relative;
+        top:50px;
+    }
+#search{
+    position:relative;
+    top:50px;
+    font-size: 20px;
+    background-color: #D6B892;
+    color:#2E1204;
+    border-radius: 2cm;
+    border-width: 4px;
+    border-color: #3D3528;
+    text-align: center;
+    }
 .sortable-list{
     background-color: #D6B892;
     width:164px;
