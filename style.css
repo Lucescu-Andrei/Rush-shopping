@@ -79,6 +79,11 @@ a:hover{
 float: right;
     text-align: center;
 }
+.search-wrapper{
+    position:relative;
+    top:10px;
+    align-item: center;
+}
 footer{
     position: fixed;
     bottom: 0px;
