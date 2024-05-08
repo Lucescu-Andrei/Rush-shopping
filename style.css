@@ -90,11 +90,15 @@ a:hover{
         
     }
 .adg{
-        position: relative;
-        top:50px;
-    border: solid #D6B892;
-    
-    }
+            position: relative;
+            top:50px;
+        border: solid #2E1204;
+        width: 25px;
+        height: 25px;
+        border-radius: 45%;
+        background-color: #D6B892;
+        
+        }
 #search{
     position:relative;
     top:50px;
