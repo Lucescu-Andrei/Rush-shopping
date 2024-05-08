@@ -20,6 +20,7 @@ header{
     border-bottom-width:1px ;
     box-shadow: 0 2px 3px 0 #3D3528, 0 4px 10px 0 #3D3528;
     border-bottom-color:transparent;
+    z-index: 1;
     
 
 }
@@ -76,14 +77,37 @@ a:hover{
     border-width: 1.5px;
 }
 .tabelul{
-float: right;
-    text-align: center;
+
+    border:#2E1204;
 }
 .search-wrapper{
-    position:relative;
-    top:10px;
-    align-item: center;
+    position:absolute;
+    top:80px;
+    left: 45%;
+    height: 30px;
+    width: 50px;
+
+    
 }
+#search{font-size: 20px;
+background-color: #D6B892;
+color:#2E1204;
+border-radius: 2cm;;
+border-width: 4px;
+border-color: #3D3528;
+text-align: center;
+
+}
+.sortable-list{
+    background-color: #D6B892;
+    width:164px;
+    height: auto;
+    margin-top: 100px;
+    margin-left:45%;
+    margin-right:50%;
+
+}
+.item{ border: none}
 footer{
     position: fixed;
     bottom: 0px;
@@ -91,7 +115,6 @@ footer{
     width: 100%;
     z-index: 1;
     background-color: #3D3528;
-    font-color: #000;
     
 }
 /* D6B892 crem
