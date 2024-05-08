@@ -76,8 +76,8 @@ a:hover{
     border-width: 1.5px;
 }
 .tabelul{
-    margin-left: auto;
-    margin-right: auto;
+float: right;
+    text-align: center;
 }
 footer{
     position: fixed;
