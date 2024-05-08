@@ -110,6 +110,31 @@ a:hover{
     border-color: #3D3528;
     text-align: center;
     }
+.sugestie ul{
+        position: relative;
+        top: 60px;
+        background-color: #D6B892;
+        border-radius: 10px;
+        border-style:solid ;
+        border-color:#3D3528 ;
+        color:#3D3528;
+    }
+    .sugestie ul li{
+        list-style: none;
+        border-radius: 3px;
+        padding: 5px; 
+        border-top-style:solid ;
+        border-top-color:#3D3528 ;
+        
+    }
+    .sugestie li: hover{
+        background-color: #3D3528; 
+        
+    }
+    .sugestie{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
 .sortable-list{
     background-color: #D6B892;
     width:164px;
