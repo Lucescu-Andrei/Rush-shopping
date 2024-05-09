@@ -35,8 +35,8 @@ caut.onkeyup = function(){
     let s =[];
     let src = caut.value;
     if(src.length){
-        s = availableKeyword.filter((keyword)=>{
-            return keyword.toLowerCase().includes(input.toLowerCase());
+        s = sugerimente.filter((keyword)=>{
+            return keyword.toLowerCase().includes(src.toLowerCase());
         });
         console.log(s);
     }
@@ -59,3 +59,7 @@ function selectInput(list){
     caut.value = list.innerHTML;
     sugestie.innerHTML = '';
 }
+
+/*const salut = 'sal';
+const mic = salut.toUpperCase()
+console.log(mic)*/
