@@ -1,105 +1,119 @@
 * {
-margin: 0;
-padding: 0;
-}
+    margin: 0;
+    padding: 0;
 
-body{
-    background-color: #64806A;
-    /*height: 2500px;*/
-}
-
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-    background-color: #44655A;
-    height: 50px;
-    border-bottom-style: solid;
-    border-bottom-width:1px ;
-    box-shadow: 0 2px 3px 0 #3D3528, 0 4px 10px 0 #3D3528;
-    border-bottom-color:transparent;
-    z-index: 1;
+    }
     
-
-}
-
-.logo{
-    display: inline-block;
-    position:relative;
-    /*left: 20px;*/
-    /*top:10px;*/
-    /*margin-right: 50px;*/
-    color:#2E1204;
-    width: 100px;;
-    font-weight:bolder;
-    font-size:large;
-
-}
-
-a{
-    display: inline-block;
-    text-decoration-line:none;
-    color:#D6B892;
-    margin-left: 15px; 
-    margin-right:  15px;
-    /*align-self: center;*/
-}
-a:hover{
-    font-size:larger;
-    color:#44655A;
-    padding: 3px;
-    background-color: #64806A;
-    border-radius: 8px;
-    border-style: solid;
-    border-color: #D6B892;
-    border-width: 1.25px;
-}
-.home{
-    margin-left: 0px;
-}
-.liste{
-    margin-right: 0px;
-}
-#logare{
-    position: relative;
-    /*float:right;
-    top:10px;
-    right:10px;*/
-    background-color:#3D3528;
-    color:#D6B892;
-    padding: 8px;
-    border-style: none;
-    border-radius: 25px;
-    border-style: solid;
-    border-color:#2E1204;
-    border-width: 1.5px;
-}
-.tabelul{
-
-    border:#2E1204;
-}
- .search-wrapper{
-        display: flex;
-        justify-content:center;
-        
-        height: 100px;
-       
-    
+    body{
+        background-color: #64806A;
+        /*height: 2500px;*/
         
     }
-.adg{
-            position: relative;
-            top:50px;
-        border: solid #2E1204;
-        width: 25px;
-        height: 25px;
-        border-radius: 45%;
-        background-color: #D6B892;
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        background-color: #44655A;
+        height: 50px;
+        border-bottom-style: solid;
+        border-bottom-width:1px ;
+        box-shadow: 0 2px 3px 0 #3D3528, 0 4px 10px 0 #3D3528;
+        border-bottom-color:transparent;
+        z-index: 1;
         
-        }
-#search{
+    
+    }
+    
+    .logo{
+        display: inline-block;
+        position:relative;
+        /*left: 20px;*/
+        /*top:10px;*/
+        /*margin-right: 50px;*/
+        color:#2E1204;
+        width: 100px;;
+        font-weight:bolder;
+        font-size:large;
+    
+    }
+    
+    a{
+        display: inline-block;
+        text-decoration-line:none;
+        color:#D6B892;
+        margin-left: 15px; 
+        margin-right:  15px;
+        /*align-self: center;*/
+    }
+    a:hover{
+        font-size:larger;
+        color:#44655A;
+        padding: 3px;
+        background-color: #64806A;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #D6B892;
+        border-width: 1.25px;
+    }
+    .home{
+        margin-left: 0px;
+    }
+    .liste{
+        margin-right: 0px;
+    }
+    #logare{
+        position: relative;
+        /*float:right;
+        top:10px;
+        right:10px;*/
+        background-color:#3D3528;
+        color:#D6B892;
+        padding: 8px;
+        border-style: none;
+        border-radius: 25px;
+        border-style: solid;
+        border-color:#2E1204;
+        border-width: 1.5px;
+    }
+    .tabelul{
+    
+        border:#2E1204;
+    }
+    
+    .search-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        gap:50px;
+    }
+    .bara-search{
+        position: relative;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+   }
+   
+    .adg{
+        position: relative;
+        top:50px;
+        background: transparent;
+        border: 0;
+        outline: 0;
+    }
+    .material-symbols-outlined{
+        color: #2E1204;
+        cursor: pointer;
+        border-style: solid;
+        border-color: #3D3528;
+        border-radius: 100%;
+        border-width:2px ;
+        background-color: #D6B892;
+    }
+    #search{
     position:relative;
     top:50px;
     font-size: 20px;
@@ -110,14 +124,15 @@ a:hover{
     border-color: #3D3528;
     text-align: center;
     }
-.sugestie ul{
+    .sugestie ul{
         position: relative;
-        top: 60px;
+        /*top: 60px;*/
         background-color: #D6B892;
         border-radius: 10px;
         border-style:solid ;
         border-color:#3D3528 ;
         color:#3D3528;
+        
     }
     .sugestie ul li{
         list-style: none;
@@ -125,63 +140,42 @@ a:hover{
         padding: 5px; 
         border-top-style:solid ;
         border-top-color:#3D3528 ;
+        cursor: pointer;
         
     }
-    .sugestie li: hover{
-        background-color: #3D3528; 
-        
+    .sugestie li:hover{
+        background-color: #3d3528b8; 
+        color:#D6B892;
     }
     .sugestie{
+        position: relative;
+        width: 250px;
         max-height: 300px;
         overflow-y: scroll;
+        z-index: 1;
     }
-.sortable-list{
-    background-color: #D6B892;
-    width:164px;
-    height: auto;
-    margin-top: 100px;
-    margin-left:45%;
-    margin-right:50%;
-
-}
-.item{ border: none}
-.info{margin-top: 15px;
-margin-left: 25%;
-}
-.prez{
-    width: 400px;
-    height: 100px;
-    border: solid black;
-    border-radius: 30% 10% 30% 10%;
-    margin-left:25%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: #D6B892;  
+    .sortable-list{
+        background-color: #D6B892;
+        width:164px;
+        height: auto;
+        margin-top: 100px;
+        margin-left:45%;
+        margin-right:50%;
     
-}
-.cadou{margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: 40%;
-    border: 10px solid #0a573d ;
-    border-top-left-radius: 30%;
-    border-bottom-right-radius: 35%;
-    z-index: -1;
-}
-footer{
-    position: fixed;
-    bottom: 0px;
-    height: 100px;
-    width: 100%;
-    z-index: 1;
-    background-color: #3D3528;
-    
-}
-
-/* D6B892 crem
-2E1204 maro inchis
-44655A verde inchis
-64806A verde deschis
-3D3528 celalalt  maro
-*/
+    }
+    .item{ border: none}
+    footer{
+        position: sticky;
+        bottom: 0px;
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+        background-color: #3D3528;
+        
+    }
+    /* D6B892 crem
+    2E1204 maro inchis
+    44655A verde inchis
+    64806A verde deschis
+    3D3528 celalalt  maro
+    */
